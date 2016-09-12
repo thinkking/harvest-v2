@@ -1,0 +1,40 @@
+{
+  "name": "swagger-ui",
+  "main": "dist/index.html",
+  "authors": [
+    "Mohsen Azimi <me@azimi.me>"
+  ],
+  "description": "Swagger UI",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Swagger",
+    "API"
+  ],
+  "license": [
+    "Apache-2.0",
+    "Copyright 2016 SmartBear Software",
+    "./LICENSE"
+  ],
+  "homepage": "http://swagger.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "2.2.3",
+  "_release": "2.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.3",
+    "commit": "dab8c4a0e3ae3968960f23afefae3a32b8fa7f01"
+  },
+  "_source": "https://github.com/wordnik/swagger-ui.git",
+  "_target": "^2.2.3",
+  "_originalSource": "swagger-ui",
+  "_direct": true
+}

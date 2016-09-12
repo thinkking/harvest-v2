@@ -9,6 +9,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/docs', function(req, res, next) {
+  res.render('docs', { title: 'HarvestAPI Specs' });
+});
+
 router.get('/crops', function(req, res, next) {
   Crop.find(function(err, crops){
     if(err){ return next(err); }
